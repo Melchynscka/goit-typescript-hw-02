@@ -1,35 +1,18 @@
-.galleryHeader {
-  width: 100%;
-  padding: 8px;
-  position: sticky;
-  top: 0;
-  left: 0;
-  height: 60px;
-  background-color: rgb(84, 84, 243);
-  margin-bottom: 8px;
-  z-index: 100;
+.header {
+  background-color: #5694f7;
+  height: 75px;
 }
-.searchForm {
-  width: 600px;
-  height: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-.formInput {
-  width: 100%;
-  height: 100%;
-  padding: 8px 8px 8px 32px;
-  outline: none;
-  padding-right: 30px;
-  border-radius: 5px;
-  border-color: transparent;
-}
-.searchBtn {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
-  background: none;
+.input {
   border: none;
-  cursor: pointer;
+  outline: none;
+  width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
 }

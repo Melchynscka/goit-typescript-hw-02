@@ -1,11 +1,13 @@
 import { Triangle } from 'react-loader-spinner';
 import css from './Loader.module.css';
+import { FC } from 'react';
 
-export default function Loader() {
+const Loader:FC = ()=> {
     return (
-     <div className={css.loadWrapper}>
+      <div className={css.loadWrapper}>
       <Triangle />
       <p>Laoding...</p>
     </div>
   );
 }
+export default Loader;
